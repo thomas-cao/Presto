@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF50A4391EA0C22D00DFDC8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A4381EA0C22D00DFDC8B /* main.m */; };
+		CF50A43C1EA0C22D00DFDC8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A43B1EA0C22D00DFDC8B /* AppDelegate.m */; };
+		CF50A43F1EA0C22D00DFDC8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A43E1EA0C22D00DFDC8B /* ViewController.m */; };
+		CF50A4421EA0C22D00DFDC8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF50A4401EA0C22D00DFDC8B /* Main.storyboard */; };
+		CF50A4441EA0C22D00DFDC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF50A4431EA0C22D00DFDC8B /* Assets.xcassets */; };
+		CF50A4471EA0C22D00DFDC8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF50A4451EA0C22D00DFDC8B /* LaunchScreen.storyboard */; };
+		CF50A4521EA0C22D00DFDC8B /* PrestoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A4511EA0C22D00DFDC8B /* PrestoTests.m */; };
+		CF50A45D1EA0C22D00DFDC8B /* PrestoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A45C1EA0C22D00DFDC8B /* PrestoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF50A44E1EA0C22D00DFDC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF50A42C1EA0C22D00DFDC8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF50A4331EA0C22D00DFDC8B;
+			remoteInfo = Presto;
+		};
+		CF50A4591EA0C22D00DFDC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF50A42C1EA0C22D00DFDC8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF50A4331EA0C22D00DFDC8B;
+			remoteInfo = Presto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF50A4341EA0C22D00DFDC8B /* Presto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50A4381EA0C22D00DFDC8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF50A43A1EA0C22D00DFDC8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF50A43B1EA0C22D00DFDC8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF50A43D1EA0C22D00DFDC8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF50A43E1EA0C22D00DFDC8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF50A4411EA0C22D00DFDC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF50A4431EA0C22D00DFDC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF50A4461EA0C22D00DFDC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF50A4481EA0C22D00DFDC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF50A44D1EA0C22D00DFDC8B /* PrestoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50A4511EA0C22D00DFDC8B /* PrestoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrestoTests.m; sourceTree = "<group>"; };
+		CF50A4531EA0C22D00DFDC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF50A4581EA0C22D00DFDC8B /* PrestoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF50A45C1EA0C22D00DFDC8B /* PrestoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrestoUITests.m; sourceTree = "<group>"; };
+		CF50A45E1EA0C22D00DFDC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF50A4311EA0C22D00DFDC8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50A44A1EA0C22D00DFDC8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50A4551EA0C22D00DFDC8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF50A42B1EA0C22D00DFDC8B = {
+			isa = PBXGroup;
+			children = (
+				CF50A4361EA0C22D00DFDC8B /* Presto */,
+				CF50A4501EA0C22D00DFDC8B /* PrestoTests */,
+				CF50A45B1EA0C22D00DFDC8B /* PrestoUITests */,
+				CF50A4351EA0C22D00DFDC8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF50A4351EA0C22D00DFDC8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF50A4341EA0C22D00DFDC8B /* Presto.app */,
+				CF50A44D1EA0C22D00DFDC8B /* PrestoTests.xctest */,
+				CF50A4581EA0C22D00DFDC8B /* PrestoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF50A4361EA0C22D00DFDC8B /* Presto */ = {
+			isa = PBXGroup;
+			children = (
+				CF50A43A1EA0C22D00DFDC8B /* AppDelegate.h */,
+				CF50A43B1EA0C22D00DFDC8B /* AppDelegate.m */,
+				CF50A43D1EA0C22D00DFDC8B /* ViewController.h */,
+				CF50A43E1EA0C22D00DFDC8B /* ViewController.m */,
+				CF50A4401EA0C22D00DFDC8B /* Main.storyboard */,
+				CF50A4431EA0C22D00DFDC8B /* Assets.xcassets */,
+				CF50A4451EA0C22D00DFDC8B /* LaunchScreen.storyboard */,
+				CF50A4481EA0C22D00DFDC8B /* Info.plist */,
+				CF50A4371EA0C22D00DFDC8B /* Supporting Files */,
+			);
+			path = Presto;
+			sourceTree = "<group>";
+		};
+		CF50A4371EA0C22D00DFDC8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF50A4381EA0C22D00DFDC8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF50A4501EA0C22D00DFDC8B /* PrestoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF50A4511EA0C22D00DFDC8B /* PrestoTests.m */,
+				CF50A4531EA0C22D00DFDC8B /* Info.plist */,
+			);
+			path = PrestoTests;
+			sourceTree = "<group>";
+		};
+		CF50A45B1EA0C22D00DFDC8B /* PrestoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF50A45C1EA0C22D00DFDC8B /* PrestoUITests.m */,
+				CF50A45E1EA0C22D00DFDC8B /* Info.plist */,
+			);
+			path = PrestoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF50A4331EA0C22D00DFDC8B /* Presto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF50A4611EA0C22D00DFDC8B /* Build configuration list for PBXNativeTarget "Presto" */;
+			buildPhases = (
+				CF50A4301EA0C22D00DFDC8B /* Sources */,
+				CF50A4311EA0C22D00DFDC8B /* Frameworks */,
+				CF50A4321EA0C22D00DFDC8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Presto;
+			productName = Presto;
+			productReference = CF50A4341EA0C22D00DFDC8B /* Presto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF50A44C1EA0C22D00DFDC8B /* PrestoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF50A4641EA0C22D00DFDC8B /* Build configuration list for PBXNativeTarget "PrestoTests" */;
+			buildPhases = (
+				CF50A4491EA0C22D00DFDC8B /* Sources */,
+				CF50A44A1EA0C22D00DFDC8B /* Frameworks */,
+				CF50A44B1EA0C22D00DFDC8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF50A44F1EA0C22D00DFDC8B /* PBXTargetDependency */,
+			);
+			name = PrestoTests;
+			productName = PrestoTests;
+			productReference = CF50A44D1EA0C22D00DFDC8B /* PrestoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF50A4571EA0C22D00DFDC8B /* PrestoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF50A4671EA0C22D00DFDC8B /* Build configuration list for PBXNativeTarget "PrestoUITests" */;
+			buildPhases = (
+				CF50A4541EA0C22D00DFDC8B /* Sources */,
+				CF50A4551EA0C22D00DFDC8B /* Frameworks */,
+				CF50A4561EA0C22D00DFDC8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF50A45A1EA0C22D00DFDC8B /* PBXTargetDependency */,
+			);
+			name = PrestoUITests;
+			productName = PrestoUITests;
+			productReference = CF50A4581EA0C22D00DFDC8B /* PrestoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF50A42C1EA0C22D00DFDC8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "emppu－cao";
+				TargetAttributes = {
+					CF50A4331EA0C22D00DFDC8B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = P3T55667D2;
+						ProvisioningStyle = Automatic;
+					};
+					CF50A44C1EA0C22D00DFDC8B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = P3T55667D2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF50A4331EA0C22D00DFDC8B;
+					};
+					CF50A4571EA0C22D00DFDC8B = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = P3T55667D2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF50A4331EA0C22D00DFDC8B;
+					};
+				};
+			};
+			buildConfigurationList = CF50A42F1EA0C22D00DFDC8B /* Build configuration list for PBXProject "Presto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF50A42B1EA0C22D00DFDC8B;
+			productRefGroup = CF50A4351EA0C22D00DFDC8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF50A4331EA0C22D00DFDC8B /* Presto */,
+				CF50A44C1EA0C22D00DFDC8B /* PrestoTests */,
+				CF50A4571EA0C22D00DFDC8B /* PrestoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF50A4321EA0C22D00DFDC8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50A4471EA0C22D00DFDC8B /* LaunchScreen.storyboard in Resources */,
+				CF50A4441EA0C22D00DFDC8B /* Assets.xcassets in Resources */,
+				CF50A4421EA0C22D00DFDC8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50A44B1EA0C22D00DFDC8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50A4561EA0C22D00DFDC8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF50A4301EA0C22D00DFDC8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50A43F1EA0C22D00DFDC8B /* ViewController.m in Sources */,
+				CF50A43C1EA0C22D00DFDC8B /* AppDelegate.m in Sources */,
+				CF50A4391EA0C22D00DFDC8B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50A4491EA0C22D00DFDC8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50A4521EA0C22D00DFDC8B /* PrestoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF50A4541EA0C22D00DFDC8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF50A45D1EA0C22D00DFDC8B /* PrestoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF50A44F1EA0C22D00DFDC8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF50A4331EA0C22D00DFDC8B /* Presto */;
+			targetProxy = CF50A44E1EA0C22D00DFDC8B /* PBXContainerItemProxy */;
+		};
+		CF50A45A1EA0C22D00DFDC8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF50A4331EA0C22D00DFDC8B /* Presto */;
+			targetProxy = CF50A4591EA0C22D00DFDC8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF50A4401EA0C22D00DFDC8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF50A4411EA0C22D00DFDC8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF50A4451EA0C22D00DFDC8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF50A4461EA0C22D00DFDC8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF50A45F1EA0C22D00DFDC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF50A4601EA0C22D00DFDC8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF50A4621EA0C22D00DFDC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3T55667D2;
+				INFOPLIST_FILE = Presto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pictureWorks.Presto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF50A4631EA0C22D00DFDC8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3T55667D2;
+				INFOPLIST_FILE = Presto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pictureWorks.Presto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF50A4651EA0C22D00DFDC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P3T55667D2;
+				INFOPLIST_FILE = PrestoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pictureWorks.PrestoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Presto.app/Presto";
+			};
+			name = Debug;
+		};
+		CF50A4661EA0C22D00DFDC8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P3T55667D2;
+				INFOPLIST_FILE = PrestoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pictureWorks.PrestoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Presto.app/Presto";
+			};
+			name = Release;
+		};
+		CF50A4681EA0C22D00DFDC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P3T55667D2;
+				INFOPLIST_FILE = PrestoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pictureWorks.PrestoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Presto;
+			};
+			name = Debug;
+		};
+		CF50A4691EA0C22D00DFDC8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P3T55667D2;
+				INFOPLIST_FILE = PrestoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pictureWorks.PrestoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Presto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF50A42F1EA0C22D00DFDC8B /* Build configuration list for PBXProject "Presto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50A45F1EA0C22D00DFDC8B /* Debug */,
+				CF50A4601EA0C22D00DFDC8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF50A4611EA0C22D00DFDC8B /* Build configuration list for PBXNativeTarget "Presto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50A4621EA0C22D00DFDC8B /* Debug */,
+				CF50A4631EA0C22D00DFDC8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF50A4641EA0C22D00DFDC8B /* Build configuration list for PBXNativeTarget "PrestoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50A4651EA0C22D00DFDC8B /* Debug */,
+				CF50A4661EA0C22D00DFDC8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF50A4671EA0C22D00DFDC8B /* Build configuration list for PBXNativeTarget "PrestoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF50A4681EA0C22D00DFDC8B /* Debug */,
+				CF50A4691EA0C22D00DFDC8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF50A42C1EA0C22D00DFDC8B /* Project object */;
+}
