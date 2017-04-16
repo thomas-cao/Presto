@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF50A4391EA0C22D00DFDC8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A4381EA0C22D00DFDC8B /* main.m */; };
-		CF50A43C1EA0C22D00DFDC8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A43B1EA0C22D00DFDC8B /* AppDelegate.m */; };
-		CF50A43F1EA0C22D00DFDC8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A43E1EA0C22D00DFDC8B /* ViewController.m */; };
-		CF50A4421EA0C22D00DFDC8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF50A4401EA0C22D00DFDC8B /* Main.storyboard */; };
+		CF1A02A41EA38AC90066D642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A02A21EA38AC90066D642 /* AppDelegate.m */; };
+		CF1A02A51EA38AC90066D642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A02A31EA38AC90066D642 /* main.m */; };
+		CF1A02A81EA38B120066D642 /* PRTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A02A71EA38B120066D642 /* PRTabBarController.m */; };
+		CF1A02AB1EA38C120066D642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF1A02A91EA38C120066D642 /* LaunchScreen.storyboard */; };
+		CF1A02AE1EA393CF0066D642 /* PRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A02AD1EA393CF0066D642 /* PRNavigationController.m */; };
+		CF1A02B11EA3960B0066D642 /* PRHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A02B01EA3960B0066D642 /* PRHomeViewController.m */; };
+		CF1A02B41EA396840066D642 /* PRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A02B31EA396840066D642 /* PRNavigationViewController.m */; };
+		CF1A02B71EA396A70066D642 /* PRMyAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A02B61EA396A70066D642 /* PRMyAccountViewController.m */; };
+		CF1A02BA1EA396BE0066D642 /* PRFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1A02B91EA396BE0066D642 /* PRFriendViewController.m */; };
 		CF50A4441EA0C22D00DFDC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF50A4431EA0C22D00DFDC8B /* Assets.xcassets */; };
-		CF50A4471EA0C22D00DFDC8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF50A4451EA0C22D00DFDC8B /* LaunchScreen.storyboard */; };
 		CF50A4521EA0C22D00DFDC8B /* PrestoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A4511EA0C22D00DFDC8B /* PrestoTests.m */; };
 		CF50A45D1EA0C22D00DFDC8B /* PrestoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF50A45C1EA0C22D00DFDC8B /* PrestoUITests.m */; };
 /* End PBXBuildFile section */
@@ -35,15 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF1A02A11EA38AC90066D642 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF1A02A21EA38AC90066D642 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF1A02A31EA38AC90066D642 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF1A02A61EA38B120066D642 /* PRTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRTabBarController.h; sourceTree = "<group>"; };
+		CF1A02A71EA38B120066D642 /* PRTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRTabBarController.m; sourceTree = "<group>"; };
+		CF1A02AA1EA38C120066D642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF1A02AC1EA393CF0066D642 /* PRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRNavigationController.h; sourceTree = "<group>"; };
+		CF1A02AD1EA393CF0066D642 /* PRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRNavigationController.m; sourceTree = "<group>"; };
+		CF1A02AF1EA3960B0066D642 /* PRHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHomeViewController.h; sourceTree = "<group>"; };
+		CF1A02B01EA3960B0066D642 /* PRHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHomeViewController.m; sourceTree = "<group>"; };
+		CF1A02B21EA396840066D642 /* PRNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRNavigationViewController.h; sourceTree = "<group>"; };
+		CF1A02B31EA396840066D642 /* PRNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRNavigationViewController.m; sourceTree = "<group>"; };
+		CF1A02B51EA396A70066D642 /* PRMyAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRMyAccountViewController.h; sourceTree = "<group>"; };
+		CF1A02B61EA396A70066D642 /* PRMyAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRMyAccountViewController.m; sourceTree = "<group>"; };
+		CF1A02B81EA396BE0066D642 /* PRFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRFriendViewController.h; sourceTree = "<group>"; };
+		CF1A02B91EA396BE0066D642 /* PRFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRFriendViewController.m; sourceTree = "<group>"; };
 		CF50A4341EA0C22D00DFDC8B /* Presto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF50A4381EA0C22D00DFDC8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CF50A43A1EA0C22D00DFDC8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CF50A43B1EA0C22D00DFDC8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CF50A43D1EA0C22D00DFDC8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF50A43E1EA0C22D00DFDC8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CF50A4411EA0C22D00DFDC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF50A4431EA0C22D00DFDC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CF50A4461EA0C22D00DFDC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF50A4481EA0C22D00DFDC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF50A44D1EA0C22D00DFDC8B /* PrestoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrestoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF50A4511EA0C22D00DFDC8B /* PrestoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrestoTests.m; sourceTree = "<group>"; };
@@ -78,6 +91,149 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF1A02861EA374B30066D642 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A02871EA374B30066D642 /* model */,
+				CF1A02881EA374B30066D642 /* view */,
+				CF1A02891EA374B30066D642 /* viewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CF1A02871EA374B30066D642 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CF1A02881EA374B30066D642 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A02AF1EA3960B0066D642 /* PRHomeViewController.h */,
+				CF1A02B01EA3960B0066D642 /* PRHomeViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CF1A02891EA374B30066D642 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		CF1A028A1EA374C00066D642 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A028B1EA374C00066D642 /* model */,
+				CF1A028C1EA374C00066D642 /* view */,
+				CF1A028D1EA374C00066D642 /* viewModel */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		CF1A028B1EA374C00066D642 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CF1A028C1EA374C00066D642 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A02B81EA396BE0066D642 /* PRFriendViewController.h */,
+				CF1A02B91EA396BE0066D642 /* PRFriendViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CF1A028D1EA374C00066D642 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		CF1A028E1EA374CA0066D642 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A028F1EA374CA0066D642 /* model */,
+				CF1A02901EA374CA0066D642 /* view */,
+				CF1A02911EA374CA0066D642 /* viewModel */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		CF1A028F1EA374CA0066D642 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CF1A02901EA374CA0066D642 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A02B51EA396A70066D642 /* PRMyAccountViewController.h */,
+				CF1A02B61EA396A70066D642 /* PRMyAccountViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CF1A02911EA374CA0066D642 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		CF1A02921EA374D20066D642 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A02931EA374D20066D642 /* model */,
+				CF1A02941EA374D20066D642 /* view */,
+				CF1A02951EA374D20066D642 /* viewModel */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		CF1A02931EA374D20066D642 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		CF1A02941EA374D20066D642 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A02B21EA396840066D642 /* PRNavigationViewController.h */,
+				CF1A02B31EA396840066D642 /* PRNavigationViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		CF1A02951EA374D20066D642 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		CF1A02961EA374DD0066D642 /* Mian */ = {
+			isa = PBXGroup;
+			children = (
+				CF1A02A61EA38B120066D642 /* PRTabBarController.h */,
+				CF1A02A71EA38B120066D642 /* PRTabBarController.m */,
+				CF1A02AC1EA393CF0066D642 /* PRNavigationController.h */,
+				CF1A02AD1EA393CF0066D642 /* PRNavigationController.m */,
+			);
+			path = Mian;
+			sourceTree = "<group>";
+		};
 		CF50A42B1EA0C22D00DFDC8B = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +257,15 @@
 		CF50A4361EA0C22D00DFDC8B /* Presto */ = {
 			isa = PBXGroup;
 			children = (
-				CF50A43A1EA0C22D00DFDC8B /* AppDelegate.h */,
-				CF50A43B1EA0C22D00DFDC8B /* AppDelegate.m */,
-				CF50A43D1EA0C22D00DFDC8B /* ViewController.h */,
-				CF50A43E1EA0C22D00DFDC8B /* ViewController.m */,
-				CF50A4401EA0C22D00DFDC8B /* Main.storyboard */,
+				CF1A02A11EA38AC90066D642 /* AppDelegate.h */,
+				CF1A02A21EA38AC90066D642 /* AppDelegate.m */,
+				CF1A02A31EA38AC90066D642 /* main.m */,
+				CF1A02861EA374B30066D642 /* Home */,
+				CF1A02961EA374DD0066D642 /* Mian */,
+				CF1A02921EA374D20066D642 /* Notification */,
+				CF1A028E1EA374CA0066D642 /* MyAccount */,
+				CF1A028A1EA374C00066D642 /* Friends */,
 				CF50A4431EA0C22D00DFDC8B /* Assets.xcassets */,
-				CF50A4451EA0C22D00DFDC8B /* LaunchScreen.storyboard */,
 				CF50A4481EA0C22D00DFDC8B /* Info.plist */,
 				CF50A4371EA0C22D00DFDC8B /* Supporting Files */,
 			);
@@ -117,7 +275,7 @@
 		CF50A4371EA0C22D00DFDC8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CF50A4381EA0C22D00DFDC8B /* main.m */,
+				CF1A02A91EA38C120066D642 /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,12 +360,13 @@
 		CF50A42C1EA0C22D00DFDC8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PR;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "emppu－cao";
 				TargetAttributes = {
 					CF50A4331EA0C22D00DFDC8B = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = P3T55667D2;
+						DevelopmentTeam = 3JA53WRFWZ;
 						ProvisioningStyle = Automatic;
 					};
 					CF50A44C1EA0C22D00DFDC8B = {
@@ -249,9 +408,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF50A4471EA0C22D00DFDC8B /* LaunchScreen.storyboard in Resources */,
 				CF50A4441EA0C22D00DFDC8B /* Assets.xcassets in Resources */,
-				CF50A4421EA0C22D00DFDC8B /* Main.storyboard in Resources */,
+				CF1A02AB1EA38C120066D642 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +434,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF50A43F1EA0C22D00DFDC8B /* ViewController.m in Sources */,
-				CF50A43C1EA0C22D00DFDC8B /* AppDelegate.m in Sources */,
-				CF50A4391EA0C22D00DFDC8B /* main.m in Sources */,
+				CF1A02B41EA396840066D642 /* PRNavigationViewController.m in Sources */,
+				CF1A02A81EA38B120066D642 /* PRTabBarController.m in Sources */,
+				CF1A02AE1EA393CF0066D642 /* PRNavigationController.m in Sources */,
+				CF1A02A51EA38AC90066D642 /* main.m in Sources */,
+				CF1A02BA1EA396BE0066D642 /* PRFriendViewController.m in Sources */,
+				CF1A02B71EA396A70066D642 /* PRMyAccountViewController.m in Sources */,
+				CF1A02B11EA3960B0066D642 /* PRHomeViewController.m in Sources */,
+				CF1A02A41EA38AC90066D642 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,18 +477,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF50A4401EA0C22D00DFDC8B /* Main.storyboard */ = {
+		CF1A02A91EA38C120066D642 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CF50A4411EA0C22D00DFDC8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CF50A4451EA0C22D00DFDC8B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF50A4461EA0C22D00DFDC8B /* Base */,
+				CF1A02AA1EA38C120066D642 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -427,11 +582,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P3T55667D2;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3JA53WRFWZ;
 				INFOPLIST_FILE = Presto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pictureWorks.Presto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinjiapo.Presto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -439,11 +599,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P3T55667D2;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3JA53WRFWZ;
 				INFOPLIST_FILE = Presto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.pictureWorks.Presto;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinjiapo.Presto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -516,6 +680,7 @@
 				CF50A4631EA0C22D00DFDC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF50A4641EA0C22D00DFDC8B /* Build configuration list for PBXNativeTarget "PrestoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +689,7 @@
 				CF50A4661EA0C22D00DFDC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF50A4671EA0C22D00DFDC8B /* Build configuration list for PBXNativeTarget "PrestoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +698,7 @@
 				CF50A4691EA0C22D00DFDC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
